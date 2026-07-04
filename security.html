@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECURITY TIPS</title>
+
+    <style>
+        header{
+        background: linear-gradient(to right, #003366, #007BFF );
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    body{
+        background-color: #eeeff6;
+    }
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+        gap: 50px;
+        display: grid;
+        border-radius: 12px;
+        grid-template-columns: repeat(2 1fr);
+        box-shadow: 0 15px 15px rgba(0,0,0,0.2);
+    } 
+
+    image{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        align-items: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+
+    }
+
+
+    .tips-grid{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+        gap:20px;
+    }
+    
+    footer{
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+
+    .tip-card{
+        box-shadow: 0 15px 15px rgba(0,0,0,0.2);
+        background: #ffffff;
+        border: 2px solid hwb(0 96% 2%);
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    tip-card-hover{
+        transform: translateY( -5px);
+        box-shadow: 0 4px 12px;
+    }
+
+    .tip-card h3{
+        margin: 0;
+        color: #2c3e50;
+    }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div>
+            <h2>SECURITY TIPS ON DIGITAL PLATFORMS</h2>
+        </div>
+    </header>
+    
+    <div>
+        <img src="king.png" alt="Profile">
+    </div>
+
+
+
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 5px; box-shadow: 0 15px 15px rgba(0,0,0,0.2); border-radius: 12px; ">Here are some security tips on digital platforms:</h1>
+        <div class="tip-card">
+            <h2>1. Use strong, Unique password</h2>
+            <p>Mix 12+ characters: A-Z, 0-9, symbols. Never reuse password. Use a password manager. </p>
+        </div>
+
+        <div class="tip-card">
+            <h2>2. Enable Two-Factor Authentication 2FA.</h2>
+            <p>Add a code from your phone/email on top of your password. Even if hackers get your password, they are stuck.</p>
+        </div>
+
+        <div class="tip-card">
+            <h2>3. Keep software and Apps updated.</h2>
+            <p>Updates patch security holes. Turn on auto-update for your phone, browser, and apps.</p>
+        </div>
+        <div class="tip-card">
+            <h2>4. Beware of phishing scams.</h2>
+            <p>Don't click weird links or download attachments from unknown senders. Check the email address first.</p>
+        </div>
+        <div class="tip-card">
+            <h2>5. Use secured wi-fi + VPN.</h2>
+            <p>Avoid public/free Wi-fi for banking. A VPN encrypts your data on open networks.</p>
+        </div>
+        <div class="tip-card">
+            <h2>6. Think before you click/share.</h2>
+            <p>Checks privacy settings on social media. Don't overshare personal information, location or documents</p>
+        </div>
+    </div>
+
+    </section>
+
+    <footer>
+        &copy; 2026 CYBERSECURITY AWARENESS. ALL RIGHTS RESERVED.
+</footer>
+    
+
+</body>
+</html>
