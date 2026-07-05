@@ -3,95 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+    <title>CYBERSECURITY AWARENESS PLATFORM</title>
+    <a href="https://www.cybershied.com" target="_blank">Visit CyberShield</a>
 
-    <style>
-         *{
+<style>
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family:Arial, sans-serif ;
     }
     
+    body{ 
+        background-color: white;
+    }
 
     header{
-        background: linear-gradient(to right, #003366, #007BFF );
+        background-color: #0a3d62;
         color: white;
-        display: flex;
+        display: flexbox;
         justify-content: space-between;
         align-items: center;
-        padding: 20px;
+        padding: 15px 30px;
     }
-    
-    header h1 {
-        font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif;
+    .logo h2{
+        font-size: 24px;
     }
-
-    .content{
-        width: 85%;
-        margin: 30px auto;
-        background: white;
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0 15px 15px rgba(0,0,0,0.2);
+    nav{
+        margin-top: 30px;
+        text-align: justify;
     }
 
-    .section-title {
-        width: 300px;
-        margin: 40px auto;
-        padding: 2px;
-        text-align: center;
-        background: #0d6efd;
+    image{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        align-items: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+
+    }
+
+    footer{
+        background: #2c3e50;
         color: white;
-        border-radius: 30px;
-        font-size: 24px;
-        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+        margin-top: 10px;
     }
 
-    p{
+    nav ul{
+        display: flex;
+        list-style: none;
+        gap: 50px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        transition: 0,3s;
+    }
+    nav ul li a:hover{
+        color: gold;
+    }
+
+    .banner {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+        background: linear-gradient(90deg, #0d6efd, #00b4d8);
+        color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgb(0,0,0, 0.3);
+    }
+
+    .banner h2{
+        font-size: 36px;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .banner p{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+     .intro {
+        width: 85%;
+        margin: 40px auto;
+        padding: 30px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 40px 10px rgba(0,0,0,0.5);
+     }
+
+     .intro h1 {
+        text-align: center;
+        font-size: 40px;
+        color: #003366;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+     }
+     .intro p{
+        font-size: 22px;
         text-align: justify;
         color: #333;
-    }
-    footer{
-        background: #003366;
-        color: white;
-        text-align: center;
-        font-size: 18px;
-        margin-top: 80px;
-        align-items: flex-end;
-    }
-    </style>
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px ;
+     }
+</style>
+
 </head>
 <body>
-     <header>
-        
-           <h2>CYBERSECURITY AWARENESS </h2>
+    <header>
+
+        <div class="logo">
+           <h2>CYBERSECURITY AWARENESS AND SAFETY PRACTICES ON DIGITAL PLATFORMS</h2>
+        </div>
         <img src="logo.png", alt="Profile Picture" style="height: 80px; position: absolute; right: 20px; top: 20px; width:80px; align-items: left; border-radius: 50px;">
-        
-      </header>
 
-      <div class="content">
-        <h2 class="section-title">BACKGROUND</h2>
-            Digital technologies has become an essential part of everyday life. Individuals and organizations
-            rely heavily on internet  for communication, education, business transactions, and entertainment.
-            Despite these benefits many users lack adequate knowledge about cybersecurity threats and safe online behavior.
-            Cyber criminals often exploit this lack of awareness to gain unauthorized access to personal and organizational 
-            information. Therefore, promoting cybersecurity and encouraging safety digital practices are necessary to reduce 
-            cyber risk and improved online security. 
+        <nav>
+            <ul>
+                <li><a href="WORK1.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="security.html">Security Tips</a></li>
+                <li><a href="cyber.html">Cyber Threats</a></li>
+                <li><a href="terms.html">Definition of Terms</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <div class="banner">
+        <h2>Welcome to our Cybersecurity Awareness Platform</h2>
+        <p>Your Trusted Source for Online Safety and Digital Security. </p>
+    </div>
     
-        <h2 class="section-title">OBJECTIVES</h2>
-            Cybersecurity awareness plays a crucial role in todays world, it safeguard the cyber space (Environment) and
-            also protect digital devices from cyber attacks. Moreover, it also aid individuals to understand online threats
-            and protective measures and also helps organizations to improve its cybersecurity culture and reducing security incidents.
-        Additionally, cybersecurity awareness create opportunity for trust and safety among customers and individuals 
-        who heavily rely on digital marketing knowing well that updating software patches and transmitting transactions information
-        through a secured tunnel will eventually reduced attacks and threat on the cyber space.  
-      </div>
+    <section class="intro">
+        <h1>INTRODUCTION</h1>
 
-  <footer>
+        <P>
+            The rapid growth of digital platforms such as social medial, online banking, 
+            e-commence websites, and mobile applications has transformed the way people 
+            communicate, work, and conduct business. However, the increase use of digital platforms has also
+            led to the rise of cyber threat such as phishing, malware attacks, identity theft, data breaches,rootkits, ransomware, viruses, and online scams,
+        </P>
+    </section>
+    <div >
+        <img src="boss.png" alt="Picture">
+    </div>
+<footer>
         &copy; 2026 CYBERSECURITY AWARENESS. ALL RIGHTS RESERVED.
     </footer>
 
